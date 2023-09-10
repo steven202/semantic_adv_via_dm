@@ -1,2 +1,2 @@
-# semantic_adv_via_dm
+# Semantic Adversarial Attacks via Diffusion Models
 Code is coming ...
