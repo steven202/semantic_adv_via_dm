@@ -52,9 +52,9 @@ Only correctly classified images are attackable. Also, in the LM approach, we mu
 The following commands are for CelebA-HQ identity dataset, CelebA-HQ gender dataset, and AFHQ dataset, respectively:
 
 ```shell
-python pick_indices.py
-python pick_indices_face.py
-python pick_indices_afhq.py
+python pick_indices.py      # pick indices for CelebA-HQ identity dataset
+python pick_indices_face.py # pick indices for CelebA-HQ gender dataset
+python pick_indices_afhq.py # pick indices for AFHQ dataset
 ```
 
 The indices would be saved as pickle files. These indices is for a specific classifier (i.e. the victim classifier).
