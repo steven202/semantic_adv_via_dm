@@ -119,7 +119,7 @@ python main.py --attack                 \
 - `--diff` specifies based on which we generate the attack (1 for source image, 2 for target image, 3 for combing both source and target image)
 - `--tune` should be set to 3 for all cases in the LM approach.
 
-For CelebA-HQ gender dataset and AFHQ dataset, the only difference is to replace the dataset and the pretrained diffusion model as in the `command_for_CelebaHQ_gender` and `command_for_AFHQ` folders.
+For CelebA-HQ gender dataset and AFHQ dataset, the only difference is to replace the dataset and the pretrained diffusion model as in the `commands/command_for_CelebaHQ_gender` and `commands/command_for_AFHQ` folders.
 
 Please cite our paper if you feel this is helpful:
 
