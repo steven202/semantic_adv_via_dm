@@ -52,9 +52,9 @@ Only correctly classified images are attackable. Also, in the LM approach, we mu
 The following commands are for CelebA-HQ identity dataset, CelebA-HQ gender dataset, and AFHQ dataset, respectively:
 
 ```shell
-python pick_indices.py      # pick indices for CelebA-HQ identity dataset
-python pick_indices_face.py # pick indices for CelebA-HQ gender dataset
-python pick_indices_afhq.py # pick indices for AFHQ dataset
+python pick_indices_identity.py  # pick indices for CelebA-HQ identity dataset
+python pick_indices_gender.py 	 # pick indices for CelebA-HQ gender dataset
+python pick_indices_afhq.py 	 # pick indices for AFHQ dataset
 ```
 
 The indices would be saved as pickle files. These indices is for a specific classifier (i.e. the victim classifier).
@@ -71,11 +71,11 @@ python main_afhq_train.py
 
 ### Generate Attacks
 
-The commands for CelebA-HQ identity dataset are stored in `command_for_celebaHQ_identity_ST_approach` and `command_for_celebaHQ_identity_LM_approach` folders.
+The commands for CelebA-HQ identity dataset are stored in `commands/command_for_celebaHQ_identity_ST_approach` and `commands/command_for_celebaHQ_identity_LM_approach` folders.
 
-The commands for CelebA-HQ gender dataset are stored in `command_for_CelebaHQ_gender` folder.
+The commands for CelebA-HQ gender dataset are stored in `commands/command_for_celebaHQ_gender` folder.
 
-The commands for AFHQ dataset are stored in `command_for_AFHQ` folder.
+The commands for AFHQ dataset are stored in `commands/command_for_AFHQ` folder.
 
 Basically, taking CelebA-HQ identity dataset as an example, for the ST approach, we have:
 
